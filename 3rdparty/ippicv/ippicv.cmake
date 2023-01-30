@@ -39,7 +39,7 @@ function(download_ippicv root_var)
                URL
                  "${OPENCV_IPPICV_URL}"
                  "$ENV{OPENCV_IPPICV_URL}"
-                 "https://raw.githubusercontent.com/opencv/opencv_3rdparty/${IPPICV_COMMIT}/ippicv/"
+                 "http://192.168.1.9:10088/YumeMichi/opencv_3rdparty/raw/commit/${IPPICV_COMMIT}/ippicv/"
                DESTINATION_DIR "${THE_ROOT}"
                ID IPPICV
                STATUS res
