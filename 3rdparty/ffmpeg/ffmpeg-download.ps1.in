@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/opencv/opencv_3rdparty/@FFMPEG_BINARIES_COMMIT@/ffmpeg/opencv_videoio_ffmpeg_64.dll"
+$url = "http://192.168.1.9:10088/YumeMichi/opencv_3rdparty/raw/commit/@FFMPEG_BINARIES_COMMIT@/ffmpeg/opencv_videoio_ffmpeg_64.dll"
 $expected_md5 = "@FFMPEG_FILE_HASH_BIN64@"
 $output = "$PSScriptRoot\@OPENCV_BIN_INSTALL_PATH@\opencv_videoio_ffmpeg@OPENCV_DLLVERSION@_64.dll"
 
